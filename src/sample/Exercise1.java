@@ -30,6 +30,7 @@ driver.findElement(By.xpath("//*[@id='identifierNext']/content/span")).click();
 //isSelected() method returns boolean value either True or False
 Boolean Select = driver.findElement(By.xpath("//*[@id='PersistentCookie']")).isSelected();
 System.out.println("Element selected is :"+Select);
+
 	}
 
 }
