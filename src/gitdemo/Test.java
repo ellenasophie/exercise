@@ -47,7 +47,7 @@ public class Test {
         // This expression implements 'FuncInter2' interface 
         FuncInter2 fobj = message ->System.out.println("Hello "
                                                  + message); 
-        fobj.sayMessage("Geek"); 
+        fobj.sayMessage("User"); 
     } 
 
 }
